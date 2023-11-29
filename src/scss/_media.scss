@@ -22,10 +22,7 @@
         
         &_phone{
             font-size: 16px;
-            display: none;
-    
-
-            
+            display: none;           
         }
         &_phone2{
             display: block;
@@ -36,8 +33,6 @@
             padding: 4px 2px;
         }
     }
-
-    
 }
 
 @media (max-width:991px) {
@@ -57,7 +52,6 @@
         }
 
         &_btn {
-            // width: 100% !important;
             width: 100px !important;
             height: 40px !important;
             font-size: 9px !important;
@@ -160,17 +154,6 @@
     .conditions{
         margin-top: 24px;   
     }
-
-    // .reasons{
-    //     &_container{
-    //         display: flex;
-    //         flex-direction: column;
-    //         justify-content: center;
-    //         align-items: center;
-    //         gap: 20px;
-    //     }
-
-    // }
 }
 
 @media(max-width:575px) {
@@ -213,14 +196,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-      
-        // margin-top: 0;
-        // margin-left: -100%;
         position: absolute;
         top: 0px;
         left: -100%;
-
 
         width: 50%;
         height: 100vh;
@@ -267,7 +245,6 @@
 
                 &:nth-child(1) {
                     transform: translateY(0) rotate(-45deg);
-                    // transform: translateY(3px) rotate(-45deg);
                 }
 
                 &:nth-child(2) {
@@ -279,7 +256,6 @@
 
                 &:nth-child(3) {
                     transform: translateY(0) rotate(45deg);
-                    // transform: translateY(3px) rotate(45deg);
                 }
             }
         }
